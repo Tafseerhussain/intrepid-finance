@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+    # Enable directory indexes in public folder during development (disabled in production)
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    # Enable mod_rewrite
+    RewriteEngine On
+
+    # # Adjust as needed relative to the web root folder ('/httpdocs/public/' === '/public/')
+    RewriteBase /
+
+    # Enable HTTP 'Authorization' headers
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Remove trailing slashes except for directories (some browsers may still add '/' in root)
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^(.+)/$ ../$1 [L,R]
+
+    # 'http://foo.com/hello/world' --> 'http://foo.com/public/index.php?__call=hello/world'
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?__call=$1 [QSA,L]
+
+    # Disable caching (remove in production)
+    <IfModule mod_headers.c>
+        Header set Cache-Control "no-cache, no-store, must-revalidate, proxy-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires 0
+    </IfModule>
+</IfModule>

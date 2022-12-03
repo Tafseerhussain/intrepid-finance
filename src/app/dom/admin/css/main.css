@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    input[type="date"].styled,
+    input[type="datetime"].styled,
+    input[type="datetime-local"].styled,
+    input[type="email"].styled,
+    input[type="file"].styled,
+    input[type="month"].styled,
+    input[type="number"].styled,
+    input[type="password"].styled,
+    input[type="search"].styled,
+    input[type="tel"].styled,
+    input[type="text"].styled,
+    input[type="time"].styled,
+    input[type="url"].styled,
+    input[type="week"].styled {
+        @apply
+            h-10 leading-10 px-3
+            border rounded-md
+            focus:ring-0
+            focus:outline-2
+            focus:outline-if-hippie-blue-700
+            bg-slate-50
+            text-if-shark-900
+            border-gray-300;
+    }
+
+    input[type="date"].styled.disabled,
+    input[type="datetime"].styled.disabled,
+    input[type="datetime-local"].styled.disabled,
+    input[type="email"].styled.disabled,
+    input[type="file"].styled.disabled,
+    input[type="month"].styled.disabled,
+    input[type="number"].styled.disabled,
+    input[type="password"].styled.disabled,
+    input[type="search"].styled.disabled,
+    input[type="tel"].styled.disabled,
+    input[type="text"].styled.disabled,
+    input[type="time"].styled.disabled,
+    input[type="url"].styled.disabled,
+    input[type="week"].styled.disabled {
+        @apply
+            focus:ring-0
+            focus:outline-0
+            bg-if-silver-300
+            text-if-shark-900/60
+            border-gray-300;
+    }
+
+    input[type="date"].styled.has-error,
+    input[type="datetime"].styled.has-error,
+    input[type="datetime-local"].styled.has-error,
+    input[type="email"].styled.has-error,
+    input[type="file"].styled.has-error,
+    input[type="month"].styled.has-error,
+    input[type="number"].styled.has-error,
+    input[type="password"].styled.has-error,
+    input[type="search"].styled.has-error,
+    input[type="tel"].styled.has-error,
+    input[type="text"].styled.has-error,
+    input[type="time"].styled.has-error,
+    input[type="url"].styled.has-error,
+    input[type="week"].styled.has-error {
+        @apply
+            border-red-600
+            border-2;
+    }
+
+    input[type="submit"].styled,
+    input[type="button"].styled,
+    button.styled {
+        @apply
+            h-10 leading-10
+            px-6
+            rounded-lg
+            text-white
+            bg-if-hippie-blue
+            hover:bg-if-hippie-blue-dark;
+    }
+
+    .button.generic,
+    input[type="submit"].generic,
+    input[type="button"].generic,
+    button.generic {
+        @apply
+            rounded
+            text-white
+            bg-if-hippie-blue
+            hover:bg-if-hippie-blue-dark;
+    }
+
+    .button.plain,
+    input[type="submit"].plain,
+    input[type="button"].plain,
+    button.plain {
+        @apply
+            rounded
+            text-if-shark-500
+            bg-if-hippie-blue-100
+            hover:bg-if-hippie-blue-300;
+    }
+
+    select.styled {
+        @apply
+            h-10 leading-10 px-2
+            border rounded-md
+            focus:ring-0
+            focus:outline-2
+            focus:outline-if-hippie-blue-700
+            bg-slate-50
+            text-if-shark-900
+            border-gray-300;
+    }
+
+    textarea.styled {
+        @apply
+            block px-3 py-2
+            focus:ring-0
+            focus:outline-2
+            focus:outline-if-hippie-blue-700
+            text-if-shark-900;
+
+        font-family: Consolas, Lucidia Console, monospace;
+    }
+
+    .field-icon {
+        @apply
+            !leading-10
+            !h-10
+            absolute
+            ml-3
+            text-gray-400;
+    }
+
+    .field-error {
+        @apply
+            mt-1
+            text-sm
+            text-red-600;
+    }
+
+    .alert {
+        @apply
+            px-4
+            py-3
+            rounded-md
+            bg-if-denim-300;
+    }
+
+    .alert.caution {
+        @apply
+            bg-amber-700
+            text-white;
+    }
+
+    .alert.error {
+        @apply
+            bg-red-900
+            text-red-100;
+    }
+
+    .alert.success {
+        @apply
+            bg-green-700
+            text-green-100;
+    }
+
+    .login-alerts .alert {
+        @apply
+            mt-5;
+    }
+
+    .dash-alerts {
+        @apply
+            px-0;
+    }
+
+    .dash-alerts .alert {
+        @apply
+            mb-2
+            md:mb-5;
+    }
+
+    .dark-overlay {
+        @apply
+            fixed
+            z-40
+            top-0 left-0
+            w-full h-screen
+            bg-black bg-opacity-70;
+    }
+
+    #nav-bar {
+        @apply
+            bg-if-shark;
+    }
+
+    #top-bar {
+        @apply
+            z-10
+            shadow;
+    }
+
+    .main-container {
+        @apply
+            relative
+            flex flex-col flex-auto justify-between
+            w-full md:min-h-screen
+            text-if-shark;
+    }
+
+    table.styled .icons {
+        width: 1px;
+        white-space: nowrap;
+    }
+
+    table.styled th[scope="col"] {
+        @apply text-left px-4 py-2;
+    }
+
+    table.styled .sortable {
+        @apply cursor-pointer;
+    }
+
+    table.styled th i {
+        @apply opacity-50;
+    }
+}
+
+/**
+ * These html and body styles are used to help the mobile version (particularly the mobile PWA)
+ * behave more like a native app - especially on iOS (where all iOS browsers are forced to run the
+ * crap Safari browser under the hood and are basically nothing more than UI skins).
+ *
+ * Safari has some really nasty habits, such as an overscroll "bounce" effect when swiping up and
+ * down. It looks pretty on regular mobile websites, but on a PWA it can completely ruin the native
+ * app experience. Safari outside of a PWA also has a really, really bad design where the address
+ * bar positions itself over the bottom of the page, thus rendering bottom fixed position elements
+ * on a 100vh UI useless. These html and body styles help alleviate these issues.
+ *
+ * P.S. If you're a professional developer who prefers iOS over Android, or MacOS over Windows and
+ * Linux, you should schedule a consult with a psychologist immediately. The Apple of 2022 is a
+ * reincarnation of the Microsoft of 2002.
+ */
+
+html,
+body {
+    overscroll-behavior: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Montserrat', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.main-scrollbox {
+    height: calc(100vh - 44px);
+    overflow: auto;
+}
+
+@media (min-width: 768px) {
+    .main-scrollbox {
+        height: calc(100vh - 5rem);
+    }
+
+    .scrollbox::-webkit-scrollbar {
+        width: 0.375rem !important;
+        height: 0.375rem !important;
+        background-color: #0000;
+    }
+
+    .scrollbox::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+
+    .scrollbox::-webkit-scrollbar-track {
+        background-color: rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .scrollbox-rounded::-webkit-scrollbar-thumb,
+    .scrollbox-rounded::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+}
+
+@media (hover: hover) and (min-width: 768px) {
+    .scrollbox-dynamic {
+        visibility: hidden;
+    }
+
+    .scrollbox-content,
+    .scrollbox-dynamic:hover,
+    .scrollbox-dynamic:focus {
+        visibility: visible;
+    }
+
+    .scrollbox-dynamic.scrollbar-delay {
+        transition: visibility 0.075s;
+    }
+
+    .scrollbox-dynamic.scrollbar-delay:hover {
+        transition: visibility 0s 0.075s;
+    }
+}

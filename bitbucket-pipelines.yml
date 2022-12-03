@@ -1,0 +1,57 @@
+pipelines:
+  branches:
+    # master:
+    #   - step:
+    #       name: master
+    #       image: tellkonkle/deploy-php-composer-git-ftp:0.1
+    #       caches:
+    #         - composer
+    #       script:
+    #         - cd src
+    #         - >-
+    #           composer install
+    #           --ignore-platform-reqs
+    #           --no-interaction
+    #           --no-scripts
+    #           --prefer-dist
+    #         - cd ../
+    #         - >-
+    #           git ftp push
+    #           --dry-run
+    #           --auto-init
+    #           --user $LIVE_USER
+    #           --passwd $LIVE_PASS
+    #           --syncroot src
+    #           ftp://$LIVE_PATH
+    development:
+      - step:
+          name: development
+          image: tellkonkle/deploy-php-composer-git-ftp:0.1
+          caches:
+            - composer
+          script:
+            - cd src
+            - >-
+              composer install
+              --ignore-platform-reqs
+              --no-interaction
+              --no-scripts
+              --prefer-dist
+            - cd ../
+            - >-
+              git ftp push
+              --verbose
+              --auto-init
+              --user $DEV_USER
+              --passwd $DEV_PASS
+              --syncroot src
+              ftp://$DEV_PATH
+      - step:
+          script:
+            - pipe: atlassian/ftp-deploy:0.3.7
+              variables:
+                USER: $DEV_USER
+                PASSWORD: $DEV_PASS
+                SERVER: $DEV_PATH
+                REMOTE_PATH: content/
+                LOCAL_PATH: src/public/

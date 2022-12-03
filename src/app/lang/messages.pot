@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:3
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:5
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:8
+msgid ""
+"\n"
+"                Are you sure you want to disconnect your financial institution from your Intrepid\n"
+"                account? Not having your financial institution connected may affect Intrepid's\n"
+"                ability to process your request for capital.\n"
+"            "
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:61
+#: src/app/dom/admin/vue/AdminsList.vue:63
+#: src/app/dom/admin/vue/AdminsList.vue:68
+msgid "Access"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:168
+#: src/app/dom/admin/vue/AdminsList.vue:170
+#: src/app/dom/admin/vue/AdminsList.vue:185
+#: src/app/dom/admin/vue/AdminsList.vue:191
+#: src/app/dom/admin/vue/AdminsList.vue:194
+#: src/app/dom/admin/vue/AdminsList.vue:334
+#: src/app/dom/admin/vue/AdminsList.vue:365
+msgid "Access Level"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:321
+#: src/app/dom/admin/vue/AdminsList.vue:352
+msgid "Active"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:148
+#: src/app/dom/admin/vue/AdminsList.vue:150
+#: src/app/dom/admin/vue/AdminsList.vue:163
+#: src/app/dom/admin/vue/AdminsList.vue:165
+#: src/app/dom/admin/vue/AdminsList.vue:17
+#: src/app/dom/admin/vue/AdminsList.vue:19
+#: src/app/dom/admin/vue/AdminsList.vue:22
+#: src/app/dom/admin/vue/AdminsList.vue:24
+msgid "Add Admin"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:15
+#: src/app/dom/admin/vue/ClientsList.vue:17
+#: src/app/dom/admin/vue/ClientsList.vue:213
+#: src/app/dom/admin/vue/ClientsList.vue:215
+#: src/app/dom/admin/vue/ClientsList.vue:22
+#: src/app/dom/admin/vue/ClientsList.vue:230
+#: src/app/dom/admin/vue/ClientsList.vue:239
+#: src/app/dom/admin/vue/ClientsList.vue:242
+#: src/app/dom/admin/vue/ClientsList.vue:25
+msgid "All Forms"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:208
+#: src/app/dom/admin/vue/ClientsList.vue:210
+#: src/app/dom/admin/vue/ClientsList.vue:225
+#: src/app/dom/admin/vue/ClientsList.vue:231
+#: src/app/dom/admin/vue/ClientsList.vue:234
+#: src/app/dom/admin/vue/ClientsList.vue:77
+#: src/app/dom/admin/vue/ClientsList.vue:79
+#: src/app/dom/admin/vue/ClientsList.vue:92
+msgid "Amount"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:369
+#: src/app/dom/admin/vue/AdminsList.vue:400
+#: src/app/dom/admin/vue/AdminsList.vue:403
+#: src/app/dom/admin/vue/ClientsList.vue:311
+#: src/app/dom/admin/vue/ClientsList.vue:350
+#: src/app/dom/admin/vue/ClientsList.vue:353
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:361
+#: src/app/dom/admin/vue/AdminsList.vue:392
+#: src/app/dom/admin/vue/components/Profile.vue:168
+#: src/app/dom/admin/vue/components/Profile.vue:185
+#: src/app/dom/admin/vue/components/Profile.vue:210
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:15
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:17
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:20
+msgid "Cancel"
+msgstr ""
+
+#: src/app/dom/vue/widgets/MultiSelect.vue:20
+#: src/app/dom/vue/widgets/MultiSelect.vue:22
+msgid "Clear All"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:17
+#: src/app/dom/admin/vue/ClientsList.vue:19
+#: src/app/dom/admin/vue/ClientsList.vue:215
+#: src/app/dom/admin/vue/ClientsList.vue:217
+#: src/app/dom/admin/vue/ClientsList.vue:232
+#: src/app/dom/admin/vue/ClientsList.vue:24
+#: src/app/dom/admin/vue/ClientsList.vue:241
+#: src/app/dom/admin/vue/ClientsList.vue:244
+#: src/app/dom/admin/vue/ClientsList.vue:27
+msgid "Commercial Capital"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:206
+#: src/app/dom/admin/vue/ClientsList.vue:208
+#: src/app/dom/admin/vue/ClientsList.vue:223
+#: src/app/dom/admin/vue/ClientsList.vue:229
+#: src/app/dom/admin/vue/ClientsList.vue:232
+#: src/app/dom/admin/vue/ClientsList.vue:57
+#: src/app/dom/admin/vue/ClientsList.vue:59
+#: src/app/dom/admin/vue/ClientsList.vue:72
+msgid "Company"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:47
+#: src/app/dom/admin/vue/ClientsList.vue:49
+#: src/app/dom/admin/vue/ClientsList.vue:62
+msgid "Date"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:324
+#: src/app/dom/admin/vue/AdminsList.vue:355
+msgid "Disabled"
+msgstr ""
+
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:12
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:14
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:17
+msgid "Disconnect"
+msgstr ""
+
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:5
+msgid "Disconnect Financial Institution?"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:207
+#: src/app/dom/admin/vue/ClientsList.vue:209
+#: src/app/dom/admin/vue/ClientsList.vue:224
+#: src/app/dom/admin/vue/ClientsList.vue:230
+#: src/app/dom/admin/vue/ClientsList.vue:233
+msgid "Email"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:167
+#: src/app/dom/admin/vue/AdminsList.vue:169
+#: src/app/dom/admin/vue/AdminsList.vue:184
+#: src/app/dom/admin/vue/AdminsList.vue:190
+#: src/app/dom/admin/vue/AdminsList.vue:193
+#: src/app/dom/admin/vue/AdminsList.vue:251
+#: src/app/dom/admin/vue/AdminsList.vue:282
+#: src/app/dom/admin/vue/AdminsList.vue:51
+#: src/app/dom/admin/vue/AdminsList.vue:53
+#: src/app/dom/admin/vue/AdminsList.vue:58
+#: src/app/dom/admin/vue/ClientsList.vue:67
+#: src/app/dom/admin/vue/ClientsList.vue:69
+#: src/app/dom/admin/vue/ClientsList.vue:82
+#: src/app/dom/admin/vue/components/Profile.vue:116
+#: src/app/dom/admin/vue/components/Profile.vue:99
+msgid "Email Address"
+msgstr ""
+
+#: src/app/dom/clients/vue/components/MxDisconnect.vue:27
+msgid "Financial institution disconnected successfully!"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:165
+#: src/app/dom/admin/vue/AdminsList.vue:167
+#: src/app/dom/admin/vue/AdminsList.vue:182
+#: src/app/dom/admin/vue/AdminsList.vue:188
+#: src/app/dom/admin/vue/AdminsList.vue:191
+#: src/app/dom/admin/vue/AdminsList.vue:263
+#: src/app/dom/admin/vue/AdminsList.vue:294
+#: src/app/dom/admin/vue/AdminsList.vue:31
+#: src/app/dom/admin/vue/AdminsList.vue:33
+#: src/app/dom/admin/vue/AdminsList.vue:38
+#: src/app/dom/admin/vue/components/Profile.vue:111
+#: src/app/dom/admin/vue/components/Profile.vue:128
+#: src/app/dom/admin/vue/components/Profile.vue:133
+msgid "First Name"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:102
+#: src/app/dom/admin/vue/ClientsList.vue:196
+#: src/app/dom/admin/vue/ClientsList.vue:198
+#: src/app/dom/admin/vue/ClientsList.vue:209
+#: src/app/dom/admin/vue/ClientsList.vue:211
+#: src/app/dom/admin/vue/ClientsList.vue:213
+#: src/app/dom/admin/vue/ClientsList.vue:226
+#: src/app/dom/admin/vue/ClientsList.vue:232
+#: src/app/dom/admin/vue/ClientsList.vue:235
+#: src/app/dom/admin/vue/ClientsList.vue:87
+#: src/app/dom/admin/vue/ClientsList.vue:89
+msgid "Form"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:18
+#: src/app/dom/admin/vue/ClientsList.vue:20
+#: src/app/dom/admin/vue/ClientsList.vue:216
+#: src/app/dom/admin/vue/ClientsList.vue:218
+#: src/app/dom/admin/vue/ClientsList.vue:233
+#: src/app/dom/admin/vue/ClientsList.vue:242
+#: src/app/dom/admin/vue/ClientsList.vue:245
+#: src/app/dom/admin/vue/ClientsList.vue:25
+#: src/app/dom/admin/vue/ClientsList.vue:28
+msgid "Growth & Venture Capital"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:166
+#: src/app/dom/admin/vue/AdminsList.vue:168
+#: src/app/dom/admin/vue/AdminsList.vue:183
+#: src/app/dom/admin/vue/AdminsList.vue:189
+#: src/app/dom/admin/vue/AdminsList.vue:192
+#: src/app/dom/admin/vue/AdminsList.vue:273
+#: src/app/dom/admin/vue/AdminsList.vue:304
+#: src/app/dom/admin/vue/AdminsList.vue:41
+#: src/app/dom/admin/vue/AdminsList.vue:43
+#: src/app/dom/admin/vue/AdminsList.vue:48
+#: src/app/dom/admin/vue/components/Profile.vue:121
+#: src/app/dom/admin/vue/components/Profile.vue:138
+#: src/app/dom/admin/vue/components/Profile.vue:143
+#: src/app/dom/admin/vue/components/Profile.vue:148
+msgid "Last Name"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:100
+#: src/app/dom/admin/vue/AdminsList.vue:102
+#: src/app/dom/admin/vue/AdminsList.vue:107
+#: src/app/dom/admin/vue/AdminsList.vue:111
+#: src/app/dom/admin/vue/AdminsList.vue:204
+#: src/app/dom/admin/vue/AdminsList.vue:206
+#: src/app/dom/admin/vue/AdminsList.vue:221
+#: src/app/dom/admin/vue/AdminsList.vue:230
+msgid "Level"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:338
+#: src/app/dom/admin/vue/AdminsList.vue:369
+msgid "Level 1: View, Add"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:341
+#: src/app/dom/admin/vue/AdminsList.vue:372
+msgid "Level 2: View, Add, Edit, Delete"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:344
+#: src/app/dom/admin/vue/AdminsList.vue:375
+msgid "Level 3: View, Add, Edit, Delete, Admins"
+msgstr ""
+
+#: src/app/dom/admin/vue/components/Profile.vue:30
+#: src/app/dom/admin/vue/components/Profile.vue:32
+#: src/app/dom/admin/vue/components/Profile.vue:34
+#: src/app/dom/admin/vue/components/Profile.vue:37
+#: src/app/dom/admin/vue/components/Profile.vue:41
+#: src/app/dom/admin/vue/components/Profile.vue:78
+#: src/app/dom/admin/vue/components/Profile.vue:80
+#: src/app/dom/admin/vue/components/Profile.vue:89
+#: src/app/dom/admin/vue/components/Profile.vue:91
+#: src/app/dom/admin/vue/components/Profile.vue:95
+msgid "Logout"
+msgstr ""
+
+#: src/app/dom/admin/vue/components/Profile.vue:23
+#: src/app/dom/admin/vue/components/Profile.vue:25
+#: src/app/dom/admin/vue/components/Profile.vue:27
+#: src/app/dom/admin/vue/components/Profile.vue:30
+#: src/app/dom/admin/vue/components/Profile.vue:34
+#: src/app/dom/admin/vue/components/Profile.vue:71
+#: src/app/dom/admin/vue/components/Profile.vue:73
+#: src/app/dom/admin/vue/components/Profile.vue:82
+#: src/app/dom/admin/vue/components/Profile.vue:84
+#: src/app/dom/admin/vue/components/Profile.vue:88
+msgid "My Profile"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:287
+#: src/app/dom/admin/vue/AdminsList.vue:318
+#: src/app/dom/admin/vue/components/Profile.vue:135
+#: src/app/dom/admin/vue/components/Profile.vue:152
+#: src/app/dom/admin/vue/components/Profile.vue:167
+msgid "New Password (Optional)"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:300
+#: src/app/dom/admin/vue/AdminsList.vue:331
+#: src/app/dom/admin/vue/components/Profile.vue:148
+#: src/app/dom/admin/vue/components/Profile.vue:165
+#: src/app/dom/admin/vue/components/Profile.vue:180
+#: src/app/dom/admin/vue/components/Profile.vue:185
+msgid "New Password Again"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:377
+#: src/app/dom/admin/vue/AdminsList.vue:408
+#: src/app/dom/admin/vue/AdminsList.vue:411
+#: src/app/dom/admin/vue/ClientsList.vue:319
+#: src/app/dom/admin/vue/ClientsList.vue:358
+#: src/app/dom/admin/vue/ClientsList.vue:361
+msgid "No"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:290
+#: src/app/dom/admin/vue/AdminsList.vue:321
+#: src/app/dom/admin/vue/components/Profile.vue:138
+#: src/app/dom/admin/vue/components/Profile.vue:155
+#: src/app/dom/admin/vue/components/Profile.vue:170
+msgid "Password"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:303
+#: src/app/dom/admin/vue/AdminsList.vue:334
+#: src/app/dom/admin/vue/components/Profile.vue:151
+#: src/app/dom/admin/vue/components/Profile.vue:168
+#: src/app/dom/admin/vue/components/Profile.vue:183
+#: src/app/dom/admin/vue/components/Profile.vue:188
+msgid "Password Again"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:15
+#: src/app/dom/admin/vue/AdminsList.vue:155
+#: src/app/dom/admin/vue/AdminsList.vue:157
+#: src/app/dom/admin/vue/AdminsList.vue:172
+#: src/app/dom/admin/vue/AdminsList.vue:185
+#: src/app/dom/admin/vue/ClientsList.vue:15
+#: src/app/dom/admin/vue/ClientsList.vue:190
+#: src/app/dom/admin/vue/ClientsList.vue:192
+#: src/app/dom/admin/vue/ClientsList.vue:207
+#: src/app/dom/admin/vue/ClientsList.vue:226
+msgid "Search"
+msgstr ""
+
+#: src/app/dom/vue/widgets/MultiSelect.vue:17
+#: src/app/dom/vue/widgets/MultiSelect.vue:19
+msgid "Select All"
+msgstr ""
+
+#: src/app/dom/admin/vue/ClientsList.vue:251
+#: src/app/dom/admin/vue/ClientsList.vue:36
+msgid "Select Status"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:158
+#: src/app/dom/admin/vue/AdminsList.vue:160
+#: src/app/dom/admin/vue/AdminsList.vue:175
+#: src/app/dom/admin/vue/ClientsList.vue:193
+#: src/app/dom/admin/vue/ClientsList.vue:195
+#: src/app/dom/admin/vue/ClientsList.vue:210
+msgid "Sort By"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:169
+#: src/app/dom/admin/vue/AdminsList.vue:171
+#: src/app/dom/admin/vue/AdminsList.vue:186
+#: src/app/dom/admin/vue/AdminsList.vue:192
+#: src/app/dom/admin/vue/AdminsList.vue:195
+#: src/app/dom/admin/vue/AdminsList.vue:317
+#: src/app/dom/admin/vue/AdminsList.vue:348
+#: src/app/dom/admin/vue/AdminsList.vue:71
+#: src/app/dom/admin/vue/AdminsList.vue:73
+#: src/app/dom/admin/vue/AdminsList.vue:78
+#: src/app/dom/admin/vue/ClientsList.vue:112
+#: src/app/dom/admin/vue/ClientsList.vue:199
+#: src/app/dom/admin/vue/ClientsList.vue:201
+#: src/app/dom/admin/vue/ClientsList.vue:210
+#: src/app/dom/admin/vue/ClientsList.vue:212
+#: src/app/dom/admin/vue/ClientsList.vue:216
+#: src/app/dom/admin/vue/ClientsList.vue:227
+#: src/app/dom/admin/vue/ClientsList.vue:233
+#: src/app/dom/admin/vue/ClientsList.vue:236
+#: src/app/dom/admin/vue/ClientsList.vue:97
+#: src/app/dom/admin/vue/ClientsList.vue:99
+msgid "Status"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:358
+#: src/app/dom/admin/vue/AdminsList.vue:389
+#: src/app/dom/admin/vue/components/Profile.vue:165
+#: src/app/dom/admin/vue/components/Profile.vue:182
+#: src/app/dom/admin/vue/components/Profile.vue:207
+msgid "Submit"
+msgstr ""
+
+#: src/app/dom/admin/vue/AdminsList.vue:374
+#: src/app/dom/admin/vue/AdminsList.vue:405
+#: src/app/dom/admin/vue/AdminsList.vue:408
+#: src/app/dom/admin/vue/ClientsList.vue:316
+#: src/app/dom/admin/vue/ClientsList.vue:355
+#: src/app/dom/admin/vue/ClientsList.vue:358
+msgid "Yes"
+msgstr ""

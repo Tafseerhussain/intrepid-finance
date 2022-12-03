@@ -1,0 +1,111 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended"
+    ],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "tell-rule 2022-06-16 22:38:20": false,
+        "$": true,
+        "jQuery": true,
+        "tell": true,
+        "_tell": true,
+        "React": true,
+        "ReactDOM": true,
+        "addMoreGlobalVarsAsNeeded": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "VariableDeclarator": {
+                    "var": 1,
+                    "let": 1,
+                    "const": 1
+                },
+                "ignoredNodes": [
+                    "TemplateLiteral > *"
+                ],
+                "outerIIFEBody": "off",
+                "SwitchCase": "on"
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "newline-after-var": "off",
+        "newline-before-return": "off",
+        "no-trailing-spaces": "error",
+        "no-var": "off",
+        "one-var-declaration-per-line": "off",
+        "one-var": "off",
+        "no-cond-assign": "off",
+        "no-console": "off",
+        "no-extra-semi": "off",
+        "no-prototype-builtins": "off",
+        "no-unused-vars": "off",
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "only-multiline",
+                "objects": "only-multiline",
+                "imports": "never",
+                "exports": "never",
+                "functions": "never"
+            }
+        ],
+        "space-unary-ops": [
+            2,
+            {
+                "words": true,
+                "nonwords": true
+            }
+        ],
+        "key-spacing": [
+            2,
+            {
+                "beforeColon": true,
+                "afterColon": true,
+                "mode": "minimum",
+                "align": "colon"
+            }
+        ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ],
+        "space-in-parens": [
+            "error",
+            "never"
+        ],
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ],
+        "no-const-assign": [
+            "error"
+        ],
+        "arrow-spacing": "error",
+        "semi": "warn",
+        "quotes": [
+            "warn",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ]
+    },
+    "ignorePatterns": [
+        "**/vendor/*.js"
+    ]
+}

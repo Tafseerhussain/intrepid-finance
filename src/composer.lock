@@ -1,0 +1,303 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5a2cc58a353c6e7c3e580cfee1e6dca2",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "matomo",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-08-20T06:45:11+00:00"
+        },
+        {
+            "name": "tell-php/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/tell-tools/tell-php-core.git",
+                "reference": "fb839c43a881b2e226d47d23f7de92025f72ba69"
+            },
+            "require": {
+                "tell-php/installer": "dev-master"
+            },
+            "default-branch": true,
+            "type": "tell-php-core",
+            "license": [
+                "MIT"
+            ],
+            "description": "Tell-PHP framework.",
+            "time": "2022-11-21T13:09:16+00:00"
+        },
+        {
+            "name": "tell-php/installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/tell-tools/tell-php-installer.git",
+                "reference": "e904df1eef88d45d4b2d3a475fbf95d3a1cc0357"
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "composer/installers": "^2.0",
+                "php": ">= 7.4.0"
+            },
+            "default-branch": true,
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Tell_Composer_Plugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Tell_": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tell Konkle",
+                    "email": "tellkonkle@gmail.com",
+                    "homepage": "https://tell.tools",
+                    "role": "Author"
+                }
+            ],
+            "description": "Frontend and backend installer for the Tell-PHP framework.",
+            "time": "2021-12-17T15:53:46+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "tell-php/dev",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/tell-tools/tell-php-dev.git",
+                "reference": "a2a99472c58bdb8cf43aa81b0dcf76a74652ebbd"
+            },
+            "require": {
+                "tell-php/core": "dev-master"
+            },
+            "default-branch": true,
+            "type": "tell-php-hook",
+            "license": [
+                "MIT"
+            ],
+            "description": "Developer tooling hook for the Tell-PHP framework.",
+            "time": "2022-01-19T21:57:53+00:00"
+        },
+        {
+            "name": "tell-php/test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/tell-tools/tell-php-test.git",
+                "reference": "86443302e579e250c11883adb8424be445877a62"
+            },
+            "require": {
+                "tell-php/core": "dev-master"
+            },
+            "default-branch": true,
+            "type": "tell-php-hook",
+            "license": [
+                "MIT"
+            ],
+            "description": "Tell_* tests for the Tell-PHP framework.",
+            "time": "2022-09-29T16:47:30+00:00"
+        },
+        {
+            "name": "tell-php/test-dom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/tell-tools/tell-php-test-dom.git",
+                "reference": "9b5a6960b16e5c334f8a42f8af4feed555f15ba5"
+            },
+            "require": {
+                "tell-php/core": "dev-master"
+            },
+            "default-branch": true,
+            "type": "tell-php-hook",
+            "license": [
+                "MIT"
+            ],
+            "description": "Tell_Dom_* tests for the Tell-PHP framework.",
+            "time": "2021-12-17T15:53:30+00:00"
+        },
+        {
+            "name": "tell-php/test-validate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/tell-tools/tell-php-test-validate.git",
+                "reference": "2f484cec312494b440071da02c346508cd227bac"
+            },
+            "require": {
+                "tell-php/core": "dev-master"
+            },
+            "default-branch": true,
+            "type": "tell-php-hook",
+            "license": [
+                "MIT"
+            ],
+            "description": "Tell_Validate_* tests for the Tell-PHP framework.",
+            "time": "2021-12-17T15:53:19+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "tell-php/core": 20,
+        "tell-php/dev": 20,
+        "tell-php/test": 20,
+        "tell-php/test-dom": 20,
+        "tell-php/test-validate": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

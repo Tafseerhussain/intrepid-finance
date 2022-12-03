@@ -1,0 +1,8 @@
+!src/app/graft/
+!src/public/
+src/app/hook/:composer.json
+src/app/hook/:composer.lock
+src/core/:composer.json
+src/core/:composer.lock
+src/vendor/:composer.json
+src/vendor/:composer.lock

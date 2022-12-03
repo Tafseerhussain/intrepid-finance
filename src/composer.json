@@ -1,0 +1,40 @@
+{
+    "config": {
+        "vendor-dir": "vendor",
+        "allow-plugins": {
+            "composer/installers": true,
+            "tell-php/installer": true
+        }
+    },
+    "require": {
+        "tell-php/core": "dev-master"
+    },
+    "require-dev": {
+        "tell-php/dev": "dev-master",
+        "tell-php/test": "dev-master",
+        "tell-php/test-dom": "dev-master",
+        "tell-php/test-validate": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.tell.tools/php"
+        }
+    ],
+    "extra": {
+        "installer-types": [
+            "tell-php-core",
+            "tell-php-hook"
+        ],
+        "installer-paths": {
+            "core": [
+                "type:tell-php-core"
+            ],
+            "app/hook/{$name}": [
+                "type:tell-php-hook"
+            ]
+        }
+    }
+}

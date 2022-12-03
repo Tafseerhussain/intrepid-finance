@@ -1,0 +1,87 @@
+# ---------------------------------------------------------------------- 2022-08-18 09:03:18 ---
+# >> https://tellkonkle@bitbucket.org/tell-tools/configs.git
+# ----------------------------------------------------------------------------------------------
+# >> **/directory-name/**
+#
+# Allows ignored directory rule to affect any directory depth.
+# ----------------------------------------------------------------------------------------------
+# >> directory-name/*
+#
+# Allows an ignored directory to still appear in repo if a .keep or .gitkeep is present. All
+# other files in the directory are still ignored. This is useful for cache, log, and file
+# upload directories that the application expects to have present, but whose contents shouldn't
+# be tracked.
+# ----------------------------------------------------------------------------------------------
+
+# Package managers
+**/dist/**
+dist/*
+**/node_modules/**
+node_modules/*
+**/vendor/**
+vendor/*
+
+# Any file or directory that has '._' in the file path
+*._*
+
+# IDE and editor workspaces and preferences
+**/nbproject/**
+nbproject/*
+.code-workspace
+.esproj
+.idea/*
+.sublime-project
+.sublime-workspace
+.tmproj
+.vscode
+.vs
+
+# Compiled code
+*.class
+*.py[cod]
+*.jar
+
+# OpenOffice and LibreOffice when a document is opened
+*.~lock.*
+
+# Error and log files
+*.err
+*.log
+
+# Cache directories and files (best practice is to manually *exclude* cache paths as needed)
+**/cache/**
+cache/*
+.cache
+**/tmp/**
+tmp/*
+.tmp
+*.DS_Store
+desktop.ini
+Thumbs.db
+
+# Directory created automatically by cPanel and similar software when validating SSL certificates
+**/.well-known/**
+
+# tell-php (this "cache" directory is a cache class path, not cache storage path)
+!core/**/cache/**
+
+# Never ignore empty directory placeholders
+!.keep
+!.gitkeep
+
+# Unit test reports
+TEST*.xml
+
+# RSA keys and files containing sensitive data
+*.pem
+.env
+
+# --- Custom Project-Specific Rules ------------------------------------------------------------
+
+src/core
+src/app/hook/dev
+src/app/hook/test
+src/app/hook/test-dom
+src/app/hook/test-validate
+src/.env.dev
+**/Credentials_Doc.odt
